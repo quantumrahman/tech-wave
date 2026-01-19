@@ -17,24 +17,24 @@
 </head>
 <body class="bg-[#1a0b2e]">
     <!-- header ------------------------------------- -->
-    <header class="w-full py-[16px] border-b border-[#412567]">
-        <div class="w-full my-[0px] mx-auto px-[20px] lg:max-w-[1600px]">
+    <header class="w-full py-4 border-b border-[#412567]">
+        <div class="w-full my-0 mx-auto px-5 lg:max-w-[1600px]">
             <div class="w-full flex items-center justify-between">
                 <div class="w-auto">
                     <h1 class="text-[#ffffff] font-extrabold text-4xl cursor-pointer md:text-[42px]">Tech<span class="bg-linear-to-t from-[#f7e93f] via-[#fb09b4] to-[#9100f8] bg-clip-text text-transparent">Wave</span></h1>
                 </div>
-                <div class="w-[24px] h-[24px] flex items-center justify-center md:hidden">
+                <div class="w-6 h-6 flex items-center justify-center md:hidden">
                     <img class="cursor-pointer w-full" src="./images/normal-icon/hamburger-menu.png" alt="menu icon">
                 </div>
                 <div class="w-auto hidden md:block">
-                    <ul class="flex items-center gap-[32px]">
+                    <ul class="flex items-center gap-8">
                         <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">About</a></li>
                         <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">Episodes</a></li>
                         <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">Host</a></li>
                     </ul>
                 </div>
                 <div class="w-auto hidden md:block">
-                    <button class="relative py-[12px] px-[16px] bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] rounded-full flex items-center justify-center gap-[4px] cursor-pointer">
+                    <button class="relative py-3 px-4 bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] rounded-full flex items-center justify-center gap-1 cursor-pointer">
                         <span class="relative z-10 text-[#ffffff] font-semibold">Subscribe</span>
                         <div class="w-auto relative z-10">
                             <img src="./images/normal-icon/arrowright.png" alt="button icon">
@@ -45,6 +45,37 @@
         </div>
     </header>
     <!-- main --------------------------------------- -->
+    <main class="w-full">
+        <!-- home section --------------------------- -->
+        <section class="w-full">
+            <div class="w-full h-[400px] bg-[url('./images/background-img/hero-bg.png')] bg-no-repeat bg-center bg-cover py-10 md:min-h-[555px] md:py-20 lg:min-h-[750px] lg:py-[100px] xl:min-h-screen xl:py-[125px]">
+                <div class="w-full my-0 mx-auto px-5 lg:max-w-[1600px]">
+                    <div class="flex items-center justify-center flex-col gap-6">
+                        <div class="w-[200px] h-[200px] relative bg-[url('./images/background-img/hero-circle.png')] bg-no-repeat bg-center bg-cover flex items-center justify-center md:w-[250px] md:h-[250px] lg:w-[350px] lg:h-[350px] xl:w-[430px] xl:h-[430px]">
+                            <img src="./images/background-img/microphone.png" alt="microphone image" class="w-14 md:w-[60px] lg:w-[110px]">
+                            <div class="absolute top-0 right-0 py-[5px] px-4 rounded-full bg-[#00FF88] shadow-[0px_3px_27px_0px] shadow-[#00FF88] md:top-[15px] lg:top-[25px] lg:right-[18px] lg:py-[7px] lg:px-4.5 xl:top-[45px] xl:right-[25px] xl:py-2 xl:px-5">
+                                <p class="text-base font-semibold text-[#1A0B2E] uppercase">New</p>
+                            </div>
+                        </div>
+                        <div class="text-center xl:mt-10">
+                            <h1 class="text-[40px] font-extrabold text-[#ffffff] lg:text-[60px]">TechWave</h1>
+                            <p class="mt-2 text-base font-normal text-[#ffffff]/75">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                        </div>
+                        <div class="flex items-center gap-4 flex-col sm:flex-row sm:gap-2">
+                            <button class="flex items-center justify-center gap-2 py-3 px-5 rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] cursor-pointer">
+                                <img src="./images/normal-icon/stroke-spotify.png" alt="button icon" class="w-5">
+                                <span class="text-base font-semibold text-[#ffffff] capitalize">Listen on Spotify</span>
+                            </button>
+                            <button class="flex items-center justify-center gap-2 py-3 px-5 border border-[#00FF88] rounded-full cursor-pointer">
+                                <img src="./images/colored-icon/message.png" alt="email icon" class="w-5">
+                                <span class="text-base font-semibold text-[#00FF88]">Subscribe</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- footer ------------------------------------- -->
 </body>
 </html>
