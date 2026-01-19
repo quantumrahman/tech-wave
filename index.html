@@ -1,3 +1,4 @@
+<!-- vscode-tailwindcss-enables -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +15,35 @@
     <!-- tailwind ----------------------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-[#1a0b2e]">
     <!-- header ------------------------------------- -->
+    <header class="w-full py-[16px] border-b border-[#412567]">
+        <div class="w-full my-[0px] mx-auto px-[20px] lg:max-w-[1600px]">
+            <div class="w-full flex items-center justify-between">
+                <div class="w-auto">
+                    <h1 class="text-[#ffffff] font-extrabold text-4xl cursor-pointer md:text-[42px]">Tech<span class="bg-linear-to-t from-[#f7e93f] via-[#fb09b4] to-[#9100f8] bg-clip-text text-transparent">Wave</span></h1>
+                </div>
+                <div class="w-[24px] h-[24px] flex items-center justify-center md:hidden">
+                    <img class="cursor-pointer w-full" src="./images/normal-icon/hamburger-menu.png" alt="menu icon">
+                </div>
+                <div class="w-auto hidden md:block">
+                    <ul class="flex items-center gap-[32px]">
+                        <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">About</a></li>
+                        <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">Episodes</a></li>
+                        <li class="text-[#ffffff] font-medium text-base"><a href="#" class="hover:underline">Host</a></li>
+                    </ul>
+                </div>
+                <div class="w-auto hidden md:block">
+                    <button class="relative py-[12px] px-[16px] bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] rounded-full flex items-center justify-center gap-[4px] cursor-pointer">
+                        <span class="relative z-10 text-[#ffffff] font-semibold">Subscribe</span>
+                        <div class="w-auto relative z-10">
+                            <img src="./images/normal-icon/arrowright.png" alt="button icon">
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- main --------------------------------------- -->
     <!-- footer ------------------------------------- -->
 </body>
