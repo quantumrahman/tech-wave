@@ -34,9 +34,9 @@
                     </ul>
                 </div>
                 <div class="w-auto hidden md:block">
-                    <button class="relative py-3 px-4 bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] rounded-full flex items-center justify-center gap-1 cursor-pointer">
-                        <span class="relative z-10 text-[#ffffff] font-semibold">Subscribe</span>
-                        <div class="w-auto relative z-10">
+                    <button class="relative py-3 px-4 bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] rounded-full flex items-center justify-center gap-1 cursor-pointer group">
+                        <span class="text-[#ffffff] font-semibold">Subscribe</span>
+                        <div class="w-auto">
                             <img src="./images/normal-icon/arrowright.png" alt="button icon">
                         </div>
                     </button>
@@ -54,7 +54,7 @@
                         <div class="w-[200px] h-[200px] relative bg-[url('./images/background-img/hero-circle.png')] bg-no-repeat bg-center bg-cover flex items-center justify-center md:w-[250px] md:h-[250px] lg:w-[350px] lg:h-[350px] xl:w-[430px] xl:h-[430px]">
                             <img src="./images/background-img/microphone.png" alt="microphone image" class="w-14 md:w-[60px] lg:w-[110px]">
                             <div class="absolute top-0 right-0 py-[5px] px-4 rounded-full bg-[#00FF88] shadow-[0px_3px_27px_0px] shadow-[#00FF88] md:top-[15px] lg:top-[25px] lg:right-[18px] lg:py-[7px] lg:px-4.5 xl:top-[45px] xl:right-[25px] xl:py-2 xl:px-5">
-                                <p class="text-base font-semibold text-[#1A0B2E] uppercase">New</p>
+                                <span class="text-base font-semibold text-[#1A0B2E] uppercase">New</span>
                             </div>
                         </div>
                         <div class="text-center xl:mt-10">
@@ -62,12 +62,16 @@
                             <p class="mt-2 text-base font-normal text-[#ffffff]/75">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                         </div>
                         <div class="flex items-center gap-4 flex-col sm:flex-row sm:gap-2">
-                            <button class="flex items-center justify-center gap-2 py-3 px-5 rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] cursor-pointer">
-                                <img src="./images/normal-icon/stroke-spotify.png" alt="button icon" class="w-5">
+                            <button class="flex items-center justify-center gap-2 py-3 px-5 rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] cursor-pointer group hover:bg-green-500">
+                                <div class="w-auto">
+                                    <img src="./images/normal-icon/stroke-spotify.png" alt="button icon" class="w-5">
+                                </div>
                                 <span class="text-base font-semibold text-[#ffffff] capitalize">Listen on Spotify</span>
                             </button>
                             <button class="flex items-center justify-center gap-2 py-3 px-5 border border-[#00FF88] rounded-full cursor-pointer">
-                                <img src="./images/colored-icon/message.png" alt="email icon" class="w-5">
+                                <div class="w-auto">
+                                    <img src="./images/colored-icon/message.png" alt="email icon" class="w-5">
+                                </div>
                                 <span class="text-base font-semibold text-[#00FF88]">Subscribe</span>
                             </button>
                         </div>
@@ -166,10 +170,14 @@
                         <div class="w-full bg-[#250d44] rounded-3xl overflow-hidden sm:max-w-[400px] md:max-w-[380px] lg:max-w-[380px]">
                             <div class="w-full h-[225px] relative overflow-hidden">
                                 <div class="w-full">
-                                    <img src="./images/podcast-img/podcast-1.jpg" alt="podcast image">
+                                    <img src="./images/podcast-img/youtube-podcast-1.jpg" alt="podcast image" class="w-full lg:h-[225px]">
                                 </div>
-                                <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer">
-                                    <img src="./images/normal-icon/play.png" alt="play icon">
+                                <a href="https://youtu.be/hmtuvNfytjM?si=WMn2n55snFiazZAQ" target="_blank" rel="noopener noreferrer">
+                                    <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer z-10">
+                                        <img src="./images/normal-icon/play.png" alt="play icon">
+                                    </div>
+                                </a>
+                                <div class="animate-ping opacity-50 absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-none">
                                 </div>
                             </div>
                             <div class="w-full p-4 space-y-2 lg:p-6">
@@ -186,10 +194,14 @@
                         <div class="w-full bg-[#250d44] rounded-3xl overflow-hidden sm:max-w-[400px] md:max-w-[380px] lg:max-w-[380px]">
                             <div class="w-full h-[225px] relative overflow-hidden">
                                 <div class="w-full">
-                                    <img src="./images/podcast-img/podcast-2.jpg" alt="podcast image">
+                                    <img src="./images/podcast-img/youtube-podcast-2.jpg" alt="podcast image" class="w-full lg:h-[225px]">
                                 </div>
-                                <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer">
-                                    <img src="./images/normal-icon/play.png" alt="play icon">
+                                <a href="https://youtu.be/oX7OduG1YmI?si=ZXWvWRrKmLMKFMhW" target="_blank" rel="noopener noreferrer">
+                                    <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer z-10">
+                                        <img src="./images/normal-icon/play.png" alt="play icon">
+                                    </div>
+                                </a>
+                                <div class="animate-ping opacity-50 absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-none">
                                 </div>
                             </div>
                             <div class="w-full p-4 space-y-2 lg:p-6">
@@ -206,10 +218,14 @@
                         <div class="w-full bg-[#250d44] rounded-3xl overflow-hidden sm:max-w-[400px] md:max-w-[380px] lg:max-w-[380px]">
                             <div class="w-full h-[225px] relative overflow-hidden">
                                 <div class="w-full">
-                                    <img src="./images/podcast-img/podcast-3.jpg" alt="podcast image">
+                                    <img src="./images/podcast-img/youtube-podcast-3.jpg" alt="podcast image" class="w-full lg:h-[225px]">
                                 </div>
-                                <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer">
-                                    <img src="./images/normal-icon/play.png" alt="play icon">
+                                <a href="https://youtu.be/oX7OduG1YmI?si=ZXWvWRrKmLMKFMhW" target="_blank" rel="noopener noreferrer">
+                                    <div class="absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-pointer z-10">
+                                        <img src="./images/normal-icon/play.png" alt="play icon">
+                                    </div>
+                                </a>
+                                <div class="animate-ping opacity-50 absolute top-[40%] left-1/2 -translate-x-1/2 -trnaslate-y-1/2 w-[60px] h-[60px] rounded-full bg-linear-to-tr from-[#f7e93f] via-[#fb09b4] to-[#9100f8] flex items-center justify-center cursor-none">
                                 </div>
                             </div>
                             <div class="w-full p-4 space-y-2 lg:p-6">
